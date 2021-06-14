@@ -544,7 +544,7 @@ svg {
   margin-left: calc(-1 * var(--card-set-gap));
 }
 .portfolio__item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  flex-basis: calc((100% - (3 * var(--card-set-gap))) / 3);
   overflow: hidden;
 
   margin-top: var(--card-set-gap);
