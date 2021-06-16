@@ -23,16 +23,6 @@
 
   font-style: normal;
 }
-.contacts__item--position:first-child {
-  margin-right: 0;
-  margin-bottom: 9px;
-}
-.contacts__item--position:last-child {
-  margin-left: 0;
-}
-.contacts__link--grey {
-  color: var(--contacts-footer-text-color);
-}
 .page-footer__social-contacts {
   margin-right: auto;
 }
@@ -47,4 +37,5 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /* -- ‡ FOOTER -- */

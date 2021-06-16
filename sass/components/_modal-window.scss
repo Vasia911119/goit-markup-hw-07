@@ -1,9 +1,4 @@
 /* -- MODAL WINDOW -- */
-.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
 .backdrop {
   position: fixed;
   top: 0;
@@ -43,10 +38,10 @@
   cursor: pointer;
 
   transition: fill 250ms var(--timing-func);
-}
-.backdrop__close:hover,
-.backdrop__close:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 .backdrop__icon {
   position: absolute;

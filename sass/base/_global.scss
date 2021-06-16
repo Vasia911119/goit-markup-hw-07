@@ -75,4 +75,9 @@ svg {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
 /* -- ‡ GLOBAL -- */

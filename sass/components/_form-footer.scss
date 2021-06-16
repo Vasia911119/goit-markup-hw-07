@@ -33,10 +33,10 @@
   cursor: pointer;
 
   transition: background-color 250ms var(--timing-func);
-}
-.subscribe__button:hover,
-.subscribe__button:focus {
-  background-color: var(--button-accent-background-color);
+  &:hover,
+  &:focus {
+    background-color: var(--button-accent-background-color);
+  }
 }
 .subscribe__icon {
   fill: currentColor;

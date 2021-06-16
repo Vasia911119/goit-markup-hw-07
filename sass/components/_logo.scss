@@ -11,8 +11,9 @@
 }
 .logo__label {
   color: var(--logo-part-header-color);
+  &--inverse {
+    color: var(--secondary-text-color);
+  }
 }
-.logo__label--inverse {
-  color: var(--secondary-text-color);
-}
+
 /* -- ‡ SITE LOGO -- */

@@ -29,10 +29,12 @@
 
   transition: border-color 250ms var(--timing-func),
     fill 250ms var(--timing-func);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
-.client-list__link:hover,
-.client-list__link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
+
 /* -- ‡ REGULAR CLIENTS -- */

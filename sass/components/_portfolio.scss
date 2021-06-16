@@ -1,13 +1,13 @@
 /* -- PORTFOLIO -- */
-/* -- BUTTONS -- */
-.portfolio-buttons {
+/* -- FILTERS -- */
+.filters {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 
   margin-bottom: 50px;
 }
-.portfolio-buttons__button {
+.filters__button {
   padding: 6px 22px;
 
   background-color: var(--third-background-color);
@@ -23,17 +23,17 @@
   transition: color 250ms var(--timing-func),
     background-color 250ms var(--timing-func),
     box-shadow 250ms var(--timing-func);
+  &:hover,
+  &:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    box-shadow: var(--shadow-button-accent);
+  }
 }
-.portfolio-buttons__button:hover,
-.portfolio-buttons__button:focus {
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
-  box-shadow: var(--shadow-button-accent);
-}
-.portfolio-buttons__item:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
-/* -- ‡ BUTTONS -- */
+/* -- ‡ FILTERS -- */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -49,10 +49,10 @@
   margin-left: var(--card-set-gap);
 
   transition: box-shadow 250ms var(--timing-func);
-}
-.portfolio__item:hover,
-.portfolio__item:focus {
-  box-shadow: var(--shadow-portfolio-item);
+  &:hover,
+  &:focus {
+    box-shadow: var(--shadow-portfolio-item);
+  }
 }
 .portfolio__about-client {
   position: absolute;
